@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://kaiyang7766.github.io/mymario",
+  "scripts": {
+    "start": "serve ./mymario",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
