@@ -17,7 +17,7 @@ export function loadJSON(url){
 }
 
 export function loadSpriteSheet(name){
-	return loadJSON(`/sprites/${name}.json`)
+	return loadJSON(`https://kaiyang7766.github.io/mymario/public/sprites/${name}.json`)
 	.then(sheetSpec=> Promise.all([
 		sheetSpec,
 		loadImage(sheetSpec.imageURL),
