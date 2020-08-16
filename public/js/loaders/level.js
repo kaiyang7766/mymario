@@ -4,7 +4,7 @@ import {loadJSON, loadSpriteSheet} from '../loaders.js';
 import {Matrix} from '../math.js';
 
 export function loadLevel(name){
-	return loadJSON(`/levels/${name}.json`)
+	return loadJSON(`https://kaiyang7766.github.io/mymario/public/levels/${name}.json`)
 	.then(levelSpec => Promise.all([
 		levelSpec,
 		loadSpriteSheet(levelSpec.spriteSheet),
