@@ -20,7 +20,7 @@ const context = canvas.getContext('2d');
  	window.camera=camera;
 
  	//const mario =createMario();
- 	mario.pos.set(10,90);
+ 	mario.pos.set(50,90);
 
  	//mario.addTrait({
  	//	NAME: 'hacktrait',
