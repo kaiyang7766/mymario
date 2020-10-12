@@ -303,14 +303,6 @@
 			]
 		},
 		{
-			"pattern":"message4",
-			"ranges":[
-				[
-					71,10
-				]
-			]
-		},
-		{
 			"pattern":"message5",
 			"ranges":[
 				[105,11]
